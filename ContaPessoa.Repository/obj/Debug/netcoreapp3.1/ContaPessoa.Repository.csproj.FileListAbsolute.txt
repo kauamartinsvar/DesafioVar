@@ -1,0 +1,10 @@
+C:\Users\Aluno\Documents\workspaceC#\ContaPessoa.Repository\bin\Debug\netcoreapp3.1\ContaPessoa.Repository.deps.json
+C:\Users\Aluno\Documents\workspaceC#\ContaPessoa.Repository\bin\Debug\netcoreapp3.1\ContaPessoa.Repository.dll
+C:\Users\Aluno\Documents\workspaceC#\ContaPessoa.Repository\bin\Debug\netcoreapp3.1\ContaPessoa.Repository.pdb
+C:\Users\Aluno\Documents\workspaceC#\ContaPessoa.Repository\obj\Debug\netcoreapp3.1\ContaPessoa.Repository.csproj.AssemblyReference.cache
+C:\Users\Aluno\Documents\workspaceC#\ContaPessoa.Repository\obj\Debug\netcoreapp3.1\ContaPessoa.Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Aluno\Documents\workspaceC#\ContaPessoa.Repository\obj\Debug\netcoreapp3.1\ContaPessoa.Repository.AssemblyInfoInputs.cache
+C:\Users\Aluno\Documents\workspaceC#\ContaPessoa.Repository\obj\Debug\netcoreapp3.1\ContaPessoa.Repository.AssemblyInfo.cs
+C:\Users\Aluno\Documents\workspaceC#\ContaPessoa.Repository\obj\Debug\netcoreapp3.1\ContaPessoa.Repository.csproj.CoreCompileInputs.cache
+C:\Users\Aluno\Documents\workspaceC#\ContaPessoa.Repository\obj\Debug\netcoreapp3.1\ContaPessoa.Repository.dll
+C:\Users\Aluno\Documents\workspaceC#\ContaPessoa.Repository\obj\Debug\netcoreapp3.1\ContaPessoa.Repository.pdb

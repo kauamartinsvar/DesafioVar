@@ -15,10 +15,10 @@ namespace ContaPessoa.Controllers
             _context = context;
         }
         [HttpGet]
-        public IActionResult ObterDados()
+        public IActionResult ObterContaCorrente()
         {
             var CorrenteService = new CorrenteService (_context);
-            var correntes = CorrenteService.ObterDados();
+            var correntes = CorrenteService.ObterContaCorrente();
 
             if (correntes == null)
             {
@@ -27,6 +27,22 @@ namespace ContaPessoa.Controllers
             else
             {
                 return Ok(correntes);
+            }
+        }
+        [HttpGet]
+        [Route("{id}")]
+        public IActionResult ObterSaldoConta([FromRoute] int id)
+        {
+            var CorrenteService = new CorrenteService(_context);
+            var saldoConta = CorrenteService.ObterSaldo(id);
+
+            if (saldoConta == null)
+            {
+                return BadRequest();
+            }
+            else
+            {
+                return Ok(saldoConta);
             }
         }
     }

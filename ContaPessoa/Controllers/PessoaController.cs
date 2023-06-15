@@ -50,40 +50,9 @@ namespace ContaPessoa.Controllers
              return Ok(pessoa); 
             }
         }
-        [HttpPut]
-        [Route("{id}")]
-        public IActionResult AtualizarPessoa([FromRoute] int id, [FromBody] PessoaRequest request)
-        {
-            var pessoaService = new PessoaService(_context);
-            var sucesso = pessoaService.AtualizarPessoa(id , request);
-           
-            if (sucesso == true)
-            {
-                return NoContent(); 
-            }
-            else
-            {
-                return BadRequest();
-            }
+        
 
-        }
-
-        [HttpDelete]
-        [Route("{id}")]
-        public IActionResult RemoverPessoa([FromRoute] int id)// id so de exemplo mas não vai ser id
-        {
-            var pessoaService = new PessoaService(_context);
-            var sucesso = pessoaService.RemoverPessoa(id);
-
-            if(sucesso == true)
-            {
-                return NoContent();
-            }
-            else
-            {
-                return BadRequest();
-            }
-        }
+       
 
     }
 }

@@ -9,11 +9,9 @@ namespace ContaPessoa.Repository.Models
         public int Id { get; set; }
         public int Id_Pessoa { get; set; }
 
-        public string Numero_Cartao { get; set; }
+        public string Numero_Conta { get; set; }
 
-       public DateTime Data_Validade { get; set; }
-
-        public int Cvv { get; set; }
+     public decimal Saldo { get; set; }
 
     }
 }

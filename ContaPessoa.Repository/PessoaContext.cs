@@ -11,11 +11,13 @@ namespace ContaPessoa.Repository
         public PessoaContext(DbContextOptions<PessoaContext> options) : base(options) { }
         public DbSet<Tab_Pessoa> Pessoas { get; set; }
         public DbSet<Tab_Conta_Corrente> Corrente { get; set; }
+        public DbSet<Tab_Cartao> Cartao { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Tab_Pessoa>().ToTable("Tab_Pessoa");
             modelBuilder.Entity<Tab_Conta_Corrente>().ToTable("Tab_Conta_Corrente");
+            modelBuilder.Entity<Tab_Cartao>().ToTable("Tab_Cartao");
         }
     }
 }
